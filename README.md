@@ -6,7 +6,7 @@
    
    
    
-   "Caddaalad iyo nabad waa kuwa sharafta leh." (Peace and tranquility are attributes of honor.)<br><br>    🛣️I'm still on my roadmap to full-stack Dev<br><br>       Conducting my own research on AI and Computer Vision<br><br>💡 Open to collaborating on projects and innovative ideas.<br><br>💻 Currently working on Private projects<br><br><br>
+   "Caddaalad iyo nabad waa kuwa sharafta leh." (Peace and tranquility are attributes of honor.)<br><br>    🛣️I'm still on my roadmap to full-stack Dev<br><br>       🔍Conducting my own research on AI and Computer Vision<br><br>💡 Open to collaborating on projects and innovative ideas.<br><br>💻 Currently working on Private projects<br><br><br>
 
 
 ## 🌐 Socials:
