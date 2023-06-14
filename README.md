@@ -1,4 +1,11 @@
 # 💫 About Me:
+![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Welcome+to+my+nerdy+brain+cell!;My+name+is+Shermack!;You+can+call+me+salat+^_^;)
+
+
+<h4 align="justify"> I am a self-taught programmer driven by a relentless passion for computer science, with a strong focus on machine learning and AI. My insatiable curiosity fuels my pursuit of knowledge, constantly pushing the boundaries of what is possible. Dedicated to harnessing the power of technology, I am committed to creating innovative solutions and unlocking the transformative potential of intelligent systems.
+   
+   
+   
    "Caddaalad iyo nabad waa kuwa sharafta leh." (Peace and tranquility are attributes of honor.)<br><br>  🛣️I'm still on my roadmap to full-stack Dev<br><br>       Conducting my own research on AI and Computer Vision<br><br>💡 Open to collaborating on projects and innovative ideas.<br><br>💻 Currently working on Private projects<br><br><br>
 
 
