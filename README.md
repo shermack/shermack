@@ -30,6 +30,12 @@
     <span style="color: white; font-weight: bold;">Collaborations and Business WhatsApp: +254 798 244 407</span>
 </div>
 
+<div style="background-color: #4CAF50; padding: 10px; display: flex; align-items: center;">
+    <img src="https://img.icons8.com/material-rounded/24/ffffff/email.png" alt="Email Icon" style="margin-right: 10px;">
+    <span style="color: white; font-weight: bold;">Email: shermacksalat@gmail.com</span>
+</div>
+
+
 
 # 💻 Techstack:
 | Property                                        | Data                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
