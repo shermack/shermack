@@ -52,77 +52,7 @@
 
 
 
-<html>
-<head>
-    <title>Buy Me a Coffee</title>
-    <style>
-        body {
-            background-color: #f2f2f2;
-            font-family: Arial, sans-serif;
-        }
-        .container {
-            text-align: center;
-            margin-top: 100px;
-        }
-        .logo {
-            width: 100px;
-            height: 100px;
-            margin-bottom: 20px;
-        }
-        .coffee-logo {
-            border-radius: 50%;
-        }
-        .mpesa-logo {
-            border: 1px solid #000;
-        }
-        .form-container {
-            background-color: #cceeff;
-            padding: 20px;
-            border-radius: 10px;
-            margin-top: 20px;
-        }
-        .form-container label {
-            display: block;
-            margin-bottom: 10px;
-            font-weight: bold;
-        }
-        .form-container input[type="text"],
-        .form-container input[type="number"] {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 20px;
-            border: 1px solid #000;
-            border-radius: 5px;
-        }
-        .form-container button {
-            background-color: #00cc00;
-            color: #fff;
-            padding: 10px 20px;
-            font-size: 16px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <img src="assets/coffee.png" alt="Buy Me a Coffee Logo" class="logo coffee-logo">
-        <h1>Buy Me a Coffee</h1>
-        <div class="form-container">
-            <label for="phone_number">Phone Number:</label>
-            <input type="text" name="phone_number" id="phone_number" placeholder="Enter your phone number">
-            <label for="amount">Amount:</label>
-            <input type="number" name="amount" id="amount" placeholder="Enter the donation amount">
-            <button type="submit">Buy Me a Coffee</button>
-        </div>
-        <br>
-        <img src="assets/mpesa-logo.png" alt="M-Pesa Logo" class="logo mpesa-logo">
-        <p style="font-weight: bold;">M-Pesa Phone Number:</p>
-        <p style="background-color: #000; color: #fff; padding: 10px;">XXXXXXX</p>
-    </div>
-</body>
-</html>
+
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
 # 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=shermack&theme=dark&hide_border=true&include_all_commits=true&count_private=false)<br/>
