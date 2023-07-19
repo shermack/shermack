@@ -47,8 +47,6 @@
 | **OS**                                          | ![Windows](https://img.shields.io/badge/-Windows-black?style=flat-square&logo=windows&logoColor=blue) ![Ubuntu](https://img.shields.io/badge/-Ubuntu-black?style=flat-square&logo=ubuntu) ![Android](https://img.shields.io/badge/-Android-3DDC84?style=flat&logo=Android&logoColor=white) ![Kali Linux](https://img.shields.io/badge/-Kali%20Linux-557C94?style=flat&logo=Kali%20Linux&logoColor=white)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | **Tools & Platform**                            | ![Google Colab](https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&color=525252) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=OpenCV&logoColor=white)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | **Machine Learning / Deep Learning frameworks** | ![Jupyter Notebook](http://img.shields.io/badge/-Jupyter%20Notebook-eee?style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAQCAMAAAARSr4IAAACGVBMVEVhYmJdYWT/fBfzdyaqdlV2dnfcdC9udnz5dyKUaU3wdicCO2CzZzVdUkpOTk5MTk60ZzUAAP/XcC3fcivgciv/lArAajLqdSifYjrydyajnJjEjWifnp3FjGcAAACenp52dnd2dnd2dndhYmJhYmIxW3bzdybzdybzdybzdybzdyb/dxpydnl2dnd2dndhYmJgYmOda0r0dyXzdybzdybzdybudymQdmZldoJQYGmRaU7ydyfzdybzdybzdybzdybzdybzdybzdyb1dyX9dx/2dyXzdybzdybzdyb+eiPzdybzdybzdyb/ghz8eSQ3SFT/tABNTk5HTFBMTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5NTk5GTFBOTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5NTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5NTk5NTk5UUEx5WUMAOGRMTU9OTk5OTk5OTk5OTk5OTk5FTFAXQFvBajK8aTP2eCX0dyb0dyb0dybzdyb4eCXzdybzdybzdybzdybzdybzdybzdybzdybzdyb6dB3zdyXzdybzdybzdybzdybzdybzdybzdyaenp6cn6HKimD0dyXzdybzdybzdybzdybzdybzdyaenp6enp6dn6Dzdybzdyaenp6enp6enp6enp7zdyaenp7///9F1GYlAAAAsHRSTlMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADHCVho4Ax1RcnFOFz/ibFmwHXPc/thwKwkKJpfbqn1oaX+uighRdSIDAyV6TAQcAgIVHBMbKjIgEzBTHCsbLUBdQlhiTWBlR1xkaEVIR1tPbFEvF0pJNR9AFAQIMwgfKQUDBwgDBEsuMkcCLLSUKBsqT5iwNcX47N/g7cAxPmUqZq/OzaxiExPJYgQPCJjcP9lVnrgAAAClSURBVAjXVcyxSoIBAEXh+xkhEkFr6hD0AM5BkbQ3ODaEY4uDSENCS1BThI/h4v4TERG0NzZHvoAQ0SDV8FvkmS6cw5UgSTR5s83rlgUvWuA8l/Bs59eYbXhS28VdUt1H4dA9Eu1HexUdS3T/7Y81vXJ9rQicLcxoAK64hvd1fWwOeDgoy+JW3bCs56tOonnxd3ycGKt9nt7I91GShgn60yRJI/kBP8EfEEdOa6sAAAAASUVORK5CYII=&logoColor=F37626) ![Scikit-learn](http://img.shields.io/badge/-Scikit--Learn-eee?style=flat-square&logo=scikit-learn&logoColor=e26d00) ![PyTorch](http://img.shields.io/badge/-PyTorch-eee?style=flat-square&logo=pytorch&logoColor=EE4C2C) ![TensorFlow](http://img.shields.io/badge/-TensorFlow-eee?style=flat-square&logo=tensorflow&logoColor=FF6F00) |                                                                                                                                                                              
-
-<!DOCTYPE html>
 <html>
 <head>
     <title>Buy Me a Coffee Mpesa</title>
@@ -56,9 +54,19 @@
         body {
             font-family: Arial, sans-serif;
             text-align: center;
+            background-color: #f0f0f0;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        .logo {
+            width: 100px;
+            height: 100px;
+            display: block;
+            margin: 0 auto;
         }
         .button {
-            background-color: green;
+            background-color: #008CBA;
             padding: 10px 20px;
             font-size: 16px;
             border: none;
@@ -70,26 +78,27 @@
             padding: 8px;
             border: 1px solid #ccc;
             border-radius: 5px;
-        }
-        .mpesa-logo {
-            width: 100px;
-            height: 100px;
+            margin-bottom: 10px;
+            width: 100%;
+            box-sizing: border-box;
         }
     </style>
 </head>
 <body>
-    <h1>Buy Me a Coffee</h1>
-    <img src="assets/coffee.png" alt="Buy Me a Coffee Logo">
-    <br>
-    <label for="amount">AMOUNT</label><br>
-    <input type="number" step="0.01" min="0" name="amount" id="amount" value="0.00">
-    <br><br>
-    <label for="mpesa-phone">MPESA-PHONE</label><br>
-    <input type="tel" name="mpesa-phone" id="mpesa-phone" placeholder="Enter your M-Pesa phone number">
-    <br><br>
-    <button type="button" class="button" onclick="buyCoffee()">Buy</button>
-    <br><br>
-    <img src="assets/mpesa-logo.png" alt="M-Pesa Logo" class="mpesa-logo">
+    <div class="container">
+        <h1>Buy Me a Coffee</h1>
+        <img src="assets/coffee.png" alt="Buy Me a Coffee Logo" class="logo">
+        <br>
+        <label for="amount">AMOUNT</label><br>
+        <input type="number" step="0.01" min="0" name="amount" id="amount" placeholder="Enter the amount">
+        <br>
+        <label for="mpesa-phone">MPESA-PHONE</label><br>
+        <input type="tel" name="mpesa-phone" id="mpesa-phone" placeholder="Enter your M-Pesa phone number">
+        <br>
+        <button type="button" class="button" onclick="buyCoffee()">Buy</button>
+        <br>
+        <img src="assets/mpesa-logo.png" alt="M-Pesa Logo" class="logo">
+    </div>
 </body>
 <script>
     function buyCoffee() {
@@ -112,6 +121,7 @@
     }
 </script>
 </html>
+
 
 
 
