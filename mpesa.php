@@ -17,14 +17,14 @@ $access_token = json_decode($response)->access_token;
 // Create the STK Push payload
 $payload = [
     "BusinessShortCode" => "600983",
-    "Password" => base64_encode("your_shortcode" . "your_passkey" . date("YmdHis")),
+    "Password" => base64_encode("600983" . "bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919" . date("YmdHis")),
     "Timestamp" => date("YmdHis"),
     "TransactionType" => "CustomerPayBillOnline",
     "Amount" => "1", // Replace with the actual amount
     "PartyA" => "2547xxxxxxxx", // Replace with the customer's phone number
     "PartyB" => "your_shortcode",
     "PhoneNumber" => "2547xxxxxxxx", // Replace with the customer's phone number
-    "CallBackURL" => "https://7e0d-105-160-3-63.ngrok.io -> http://localhost:3000", // Replace with your callback URL
+    "CallBackURL" => "https://7e0d-105-160-3-63.ngrok.io", // Replace with your callback URL
     "AccountReference" => "BuyMeCoffee",
     "TransactionDesc" => "Buy Me a Coffee"
 ];
