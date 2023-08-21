@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>M-Pesa Payment Form</title>
+    <title>Buy Me a Coffee Mpesa</title>
     <style>
         body {
-            background-image: url('websites/background.jpg'); /* Adjust the path to your background image */
-            background-size: cover;
             font-family: Arial, sans-serif;
             text-align: center;
+            background-image: url('background.jpg'); /* Set the background image */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
         }
         .container {
-            margin-top: 100px;
+            margin-top: 50px;
         }
-        .input-field {
-            margin-bottom: 10px;
+        .logo {
+            width: 100px;
+            height: 100px;
+            display: block;
+            margin: 0 auto;
         }
         .button {
             background-color: #008CBA;
@@ -24,22 +29,48 @@
             border-radius: 5px;
             color: #fff;
         }
+        input {
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            width: 100%;
+            box-sizing: border-box;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>M-Pesa Payment Form</h1>
-        <form action="payment.php" method="POST">
-            <div class="input-field">
-                <label for="amount">Amount:</label>
-                <input type="number" step="0.01" min="0" name="amount" id="amount" required>
-            </div>
-            <div class="input-field">
-                <label for="phone_number">Phone Number:</label>
-                <input type="tel" name="phone_number" id="phone_number" placeholder="Enter your M-Pesa phone number" required>
-            </div>
-            <button type="submit" class="button">Pay with M-Pesa</button>
-        </form>
+        <h1>Buy Me a Coffee</h1>
+        <img src="background.jpg" alt="Buy Me a Coffee Logo" class="logo">
+        <br>
+        <label for="amount">AMOUNT</label><br>
+        <input type="number" step="0.01" min="0" name="amount" id="amount" placeholder="Enter the amount">
+        <br>
+        <label for="mpesa-phone">MPESA-PHONE</label><br>
+        <input type="tel" name="mpesa-phone" id="mpesa-phone" placeholder="Enter your M-Pesa phone number">
+        <br>
+        <button type="button" class="button" onclick="buyCoffee()">Buy</button>
     </div>
+    <script>
+        function buyCoffee() {
+            const amount = document.getElementById("amount").value;
+            const phone = document.getElementById("mpesa-phone").value;
+            // Replace 'mpesa.php' with the path to your PHP file that handles the notification.
+            fetch('mpesa.php', {
+                method: 'POST',
+                body: JSON.stringify({ amount, phone }),
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            }).then(response => {
+                // Handle the response if needed (e.g., display a success message).
+                console.log(response);
+            }).catch(error => {
+                // Handle errors if necessary.
+                console.error('Error:', error);
+            });
+        }
+    </script>
 </body>
 </html>
