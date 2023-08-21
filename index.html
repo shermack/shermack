@@ -6,27 +6,34 @@
         body {
             font-family: Arial, sans-serif;
             text-align: center;
-            margin: 0; /* Remove default margin */
-            padding: 0; /* Remove default padding */
-            background-image: url('background.jpg'); /* Set the background image */
+            margin: 0;
+            padding: 0;
+            background-image: url('background.jpg');
             background-size: cover;
             background-repeat: no-repeat;
             background-attachment: fixed;
+            background-color: #f0f0f0; /* Fallback color if image is not loaded */
         }
         .container {
             margin-top: 50px;
-            margin-left: 20px; /* Add margin to the left */
-            max-width: 300px; /* Limit the width of the container */
-            padding: 20px; /* Add padding inside the container */
-            background-color: rgba(255, 255, 255, 0.8); /* Add a light background color */
-            border-radius: 10px; /* Add border radius for a rounded look */
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a shadow */
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 300px;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
         }
         .logo {
             width: 100px;
             height: 100px;
             display: block;
             margin: 0 auto;
+        }
+        .title-logo {
+            width: 200px; /* Adjust the width as needed */
+            height: auto; /* Maintain aspect ratio */
+            margin: 10px auto;
         }
         .button {
             background-color: #008CBA;
@@ -49,6 +56,7 @@
 </head>
 <body>
     <div class="container">
+        <img src="mpesalogo.png" alt="M-Pesa Logo" class="title-logo">
         <h1>Buy Me a Coffee</h1>
         <img src="background.jpg" alt="Buy Me a Coffee Logo" class="logo">
         <br>
