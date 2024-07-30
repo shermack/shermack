@@ -14,6 +14,12 @@
 ![](./src/header_.png)
 <a href="https://www.python.org/"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" align="right" height="48" width="48" ></a>
 
+<!-- Buy me a coffee button -->
+<p align="center">
+    <a href="https://shermack.github.io/" target="_blank">
+        <img src="https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?style=flat&logo=coffee&logoColor=black" alt="Buy Me A Coffee" />
+    </a>
+</p>
 
 # 💫 About Me:
 ![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Welcome+to+my+nerdy+brain+cell!;My+name+is+Shermack!;You+can+call+me+salat+^_^;)
@@ -34,8 +40,6 @@
     <img src="https://img.icons8.com/material-rounded/24/ffffff/email.png" alt="Email Icon" style="margin-right: 10px;">
     <span style="color: white; font-weight: bold;">Email: shermacksalat@gmail.com</span>
 </div>
-
-
 
 # 💻 Techstack:
 | Property                                        | Data                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
